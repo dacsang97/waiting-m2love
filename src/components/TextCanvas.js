@@ -61,6 +61,7 @@ export default class Clock extends React.PureComponent {
   _event() {
     let end = false;
     document.addEventListener("click", this._handleClick, false);
+    document.addEventListener("touchend", this._handleClick, false);
   }
 
   _handleClick = () => {
