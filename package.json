@@ -5,7 +5,8 @@
   "author": "SangND",
   "license": "MIT",
   "scripts": {
-    "dev": "next"
+    "dev": "next",
+    "build": "next build && next export -o docs"
   },
   "dependencies": {
     "babel-plugin-styled-components": "^1.5.0",
