@@ -18,11 +18,11 @@ export default class MyDocument extends Document {
           <link
             rel="shortcut icon"
             type="image/x-icon"
-            href="/static/favicon.ico"
+            href="static/favicon.ico"
           />
           <title>I Love You</title>
           {this.props.styleTags}
-          <link rel="stylesheet" href="/static/styles.css" />
+          <link rel="stylesheet" href="static/styles.css" />
         </Head>
         <body>
           <Main />
