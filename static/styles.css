@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono&subset=vietnamese");
+
+html,
+body {
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+}
+
+body {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-filter: contrast(120%);
+  filter: contrast(120%);
+  background-color: black;
+}
+
+body > div:first-child,
+#__next,
+#__next > div,
+#__next > div > div {
+  height: 100%;
+  width: 100%;
+}
