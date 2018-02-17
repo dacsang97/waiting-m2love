@@ -2,6 +2,11 @@
 
 > A NextJS Project - Waiting for Love
 
+## Tutorial
+
+* English
+* [Vietnamese](https://github.com/dacsang97/waiting-m2love/blob/master/HUONGDAN.MD)
+
 ## Build Setup
 
 ```bash
